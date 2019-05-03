@@ -1,0 +1,59 @@
+body {
+     background-color: #434343ff !important;
+} 
+
+html {
+  margin: 0 !important;
+  font-family: 'Verdana' !important;
+  font-smoothing: subpixel-antialiased !important;
+  text-rendering: geometricPrecision !important;
+}
+
+h1 {
+ 
+}
+
+h2, h5, h6, p{
+    color: #434343ff !important;
+}
+
+h3{
+    color: #434343ff !important;
+    letter-spacing: .05em;
+    line-height: 1.3 !important;
+}
+
+h4, h5{
+    color: #434343ff !important;
+    letter-spacing: .05em;
+    line-height: 1.3 !important;
+    font-weight: 400 !important;
+}
+
+
+
+#bubble {
+  background-color: #FFFFFF;
+  margin: 80px 10%;
+  padding: 30px 60px;
+  border-radius: 20px;
+  box-shadow: 0 3px 4px 0 rgba(50,50,93,0.10), 0 3px 26px 0 rgba(0,0,0,0.20);   
+    max-width: 115ch;
+}
+
+
+/* Using main tags creates a lighter sub bubble within a bubble.*/
+
+main {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  color: #6b6b6b;
+  margin: 40px 0;
+  box-sizing: border-box;
+}
+
+
+header {
+  box-sizing: border-box;
+}
